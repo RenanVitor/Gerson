@@ -1,6 +1,6 @@
-import Entrada from "../io/entrada";
-import Produto from "../modelo/produto";
-import Atualizar from "./atualizar";
+import Entrada from "../../io/entrada";
+import Produto from "../../modelo/produto";
+import Atualizar from "../Classes/atualizar";
 
 export default class AtualizarProdutos extends Atualizar{
     private produtos:Array<Produto>

@@ -1,6 +1,6 @@
-import Entrada from "../io/entrada";
-import Servico from "../modelo/servico";
-import Atualizar from "./atualizar";
+import Entrada from "../../io/entrada";
+import Servico from "../../modelo/servico";
+import Atualizar from "../Classes/atualizar";
 
 export default class AtualizarServicos extends Atualizar{
     private servicos:Array<Servico>
