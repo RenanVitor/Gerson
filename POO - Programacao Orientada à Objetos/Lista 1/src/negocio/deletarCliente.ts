@@ -25,10 +25,10 @@ export default class DeletarCliente extends Deletar {
         //     console.log(`--------------------------------------`);
         // });
         // console.log(`\n`);
-        var newClientes = this.clientes.filter((cliente) => cliente. == cpf);
-        console.log("novos:" + newClientes[0]);
+        //var newClientes = this.clientes.filter((cliente) => cliente. == cpf);
+        //console.log("novos:" + newClientes[0]);
 
         // this.clientes = newClientes;
-        console.log(`\nExclusão concluída :)\n`);
+        //console.log(`\nExclusão concluída :)\n`);
     }
 }
