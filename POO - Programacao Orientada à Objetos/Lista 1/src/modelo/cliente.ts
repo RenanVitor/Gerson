@@ -11,7 +11,7 @@ export default class Cliente {
     private cpf: CPF
     private rg: RG
     private dataCadastro: String
-    private telefones: Array<Telefone>
+    private telefones: Telefone[] = []
     private produtosConsumidos: Array<Produto>
     private servicosConsumidos: Array<Servico>
     constructor(nome: string, nomeSocial: string, genero: number, cpf: CPF, rg: RG, telefones: Telefone[]) {
@@ -21,7 +21,7 @@ export default class Cliente {
         this.cpf = cpf
         this.rg = rg
         this.dataCadastro = new Date().toLocaleString().split(" ")[0]
-        this.telefones = []
+        this.telefones = telefones
         this.produtosConsumidos = []
         this.servicosConsumidos = []
     }
@@ -43,4 +43,13 @@ export default class Cliente {
     public get getServicosConsumidos(): Array<Servico> {
         return this.servicosConsumidos
     }
+
+    public addServicos(servico: Servico) {
+        this.servicosConsumidos.push(servico)
+    }
+
+    public addProduto(produto: Produto) {
+        this.produtosConsumidos.push(produto)
+    }
+
 }

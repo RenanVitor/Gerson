@@ -8,7 +8,7 @@ export default class CPF {
     public get getValor(): string {
         return this.valor
     }
-    public get getDataEmissao(): Date {
-        return this.dataEmissao
+    public get getDataEmissao(): String {
+        return this.dataEmissao.toLocaleString().split(" ")[0]
     }
 }
