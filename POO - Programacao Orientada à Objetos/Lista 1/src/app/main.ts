@@ -4,7 +4,7 @@ import Empresa from "../modelo/empresa"
 import PopularBaseClientes from "./PopularBase";
 import AtualizarProdutos from "../negocio/atualizarProduto";
 import AtualizarServicos from "../negocio/atualizarServicos";
-import CadastroCliente from "../negocio/cadastroCliente";
+import CadastroCliente from "../negocio/Cliente/cadastrarCliente";
 import CadastroProdutos from "../negocio/cadastroProduto";
 import CadastroServicos from "../negocio/cadastroServico";
 import DeletarCliente from "../negocio/deletarCliente";
