@@ -3,7 +3,7 @@
 ![fatecsjc_400x192](https://user-images.githubusercontent.com/71477357/161321048-dc637b2e-0314-4e07-b2f9-8cda9f653356.png)
 <p align="center">
   
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM20%DESENVOLVIMENTOcolor=GREEN&style=flat"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDOcolor=GREEN&style=flat"/>
 <img src="https://img.shields.io/badge/ÚLTIMA%20MODIFICAÇÃO-DEZEMBRO%20DE%202022-brightgreen&style=flat"/>
 
 </div>
