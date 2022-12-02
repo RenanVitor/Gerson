@@ -10,7 +10,7 @@
 
 <p align="float">Repositório criado para armazenar todas as atividades realizadas na disciplina ministrada na FATEC São José dos Campos pelo Professor Gerson da Penha Neto.<p>
   
-As atividades propostas foram desenvolvidas em dupla, conforme descrito abaixo:
+As atividades propostas em listas foram desenvolvidas em dupla, conforme descrito abaixo:
 
 |             Nome                 |                     GitHub                      |                          LinkedIn                               |
 | :------------------------------- | :----------------------------------------------:| :--------------------------------------------------------------:|
