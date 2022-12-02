@@ -18,10 +18,13 @@ pequenas como cabeleireiros, academias e as demais modalidades do setor de servi
 principais sobre o cadastro de clientes são:</p>
 
 • Começar o cadastro pelos dados principais ou mais relevantes.
+
 • Usar o cadastro para manter os clientes contato constante e com isso informar seus clientes das
 novidades de serviços ou produtos.
+
 • Usar as informações do cadastro para ofertar produtos complementares a outros serviços e
 promoções.
+
 • Manter uma agenda para contatos futuros e base para análise estratégica de marketing.
 
 # Atividade:
