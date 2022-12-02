@@ -10,7 +10,7 @@
 
 # Lista 2
 
-<p align="center">Atividade prática ATVI - Professor Dr. Eng. Gerson Penha.</p>
+<p align="center">Atividade prática ATVII - Professor Dr. Eng. Gerson Penha.</p>
 
 # Softwares sugeridos:
 • VSCode.
