@@ -8,7 +8,7 @@
 
 </div>
 
-<p align="float">Repositório criado para armazenar todas as atividades realizadas (listas) na disciplina de POO na FATEC São José dos Campos pelo Professor Gerson da Penha Neto.<p>
+<p align="float">Repositório criado para armazenar todas as atividades realizadas (listas) na disciplina de POO na FATEC São José dos Campos pelo Professor Dr. Eng. Gerson Penha.<p>
   
 As atividades propostas em listas foram desenvolvidas em dupla, conforme descrito abaixo:
 
