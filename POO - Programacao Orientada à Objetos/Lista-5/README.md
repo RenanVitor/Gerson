@@ -1,46 +1,52 @@
-## Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![fatecsjc_400x192](https://user-images.githubusercontent.com/71477357/161321048-dc637b2e-0314-4e07-b2f9-8cda9f653356.png)
+<p align="center">
+  
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM20%DESENVOLVIMENTOcolor=GREEN&style=flat"/>
+<img src="https://img.shields.io/badge/ÚLTIMA%20MODIFICAÇÃO-DEZEMBRO%20DE%202022-brightgreen&style=flat"/>
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+# Lista 5
 
-### `npm start`
+<p align="center">Atividade prática ATVI - Professor Dr. Eng. Gerson Penha.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Softwares sugeridos:
+• VSCode.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+• TypeScript.
 
-### `npm test`
+• React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Contextualização:
+<p align="justify">
+Uma aplicação distribuída consiste em um ou mais clientes locais ou remotos que se comunicam com um ou mais servidores em várias máquinas conectadas por meio de uma rede. Com esse tipo de aplicação, as operações e processamentos podem ser realizados de qualquer local geográfico. Esta forma de organizar aplicações é denominada de arquitetura distribuída.
 
-### `npm run build`
+As aplicações distribuídas podem ser relativamente simples, exigindo um único computador cliente e um único servidor, ou mais complexas, permitindo muitos computadores clientes e vários servidores. Por exemplo, os navegadores da web são aplicativos distribuídos. Outro exemplo são os sites de venda on-line, utilizados pela maioria das corporações do mercado de varejo. Estas corporações podem distribuir operações como: previsão de vendas, fazer encomendas, fabricação de produtos, envio de produtos, controle de faturamento e atualização do banco de dados corporativo. Tudo pode ficar distribuído em uma grande região ou até mesmo em fronteiras internacionais.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As redes de telecomunicações e dados de última geração estão tornando as operações distribuídas desse tipo cada vez mais comuns. As aplicações desenvolvidas para implementar esse tipo de estratégia permitem que as empresas reduzam custos e aprimorem suas ofertas de serviços para clientes em todo o mundo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Outra preocupação das empresas é com a experiência dos seus usuários, não basta apenas ter alta disponibilidade de serviços, os usuários precisam se sentir confortáveis ao usar seus produtos digitais. Por isso, junto da arquitetura distribuída, cabe o destaque ao conceito de aplicação de página única (single-page application - SPA). Também pode ser denominado como aplicativo de página única.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Uma SPA é uma aplicação web, que consiste em uma única página com o objetivo de fornecer uma experiência do usuário similar à de um aplicativo desktop.
 
-### `npm run eject`
+Em uma SPA, todo o código necessário - HTML, JavaScript e CSS - é obtido com um único carregamento de página, demais recursos apropriados são carregados dinamicamente e adicionados à página conforme necessário, geralmente em resposta a ações do usuário.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A página não é recarregada em qualquer momento do processo, tampouco ocorre a transferência de controle para outra página, embora a URL no navegador possa ser usada para fornecer a percepção e navegabilidade de páginas separadas ao aplicativo. A interação com SPA muitas vezes envolve comunicação dinâmica com o servidor (back-end) de modo assíncrono e escondido do usuário, “nos bastidores”.
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Atividade:
+<p align="justify">
+Cada uma das etapas que você trilhou, as atividades I, II, III e IV, foi uma preparação. Agora chegou o momento aguardado por todos, o desenvolvimento de um projeto com front-end e back-end completos. O objetivo final da empresa para enfim ter um produto moderno e pronto para enfrentar qualquer concorrência
+futura.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+A última tarefa, a atviv, foi a integração entre front-end e back-end, mas agora cabe a você arquitetar e implementar todo o sistema como uma aplicação web.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Depois de um grande debate, junto ao time de desenvolvimento, chegou-se à conclusão de que a biblioteca react deve ser mantida, porque ela é um ótimo framework para desenvolvimento em SPA e será abordagem utilizada no desenvolvimento da aplicação. Utilize todos os seus conhecimentos de desenvolvimento back-end
+e busque mais sempre que julgar necessário.
 
-## Learn More
+O objetivo final é criar uma aplicação web, na abordagem SPA, que atenda a todos os requisitos que o sistema precisa ter, para atender aos clientes da WB. Os requisitos foram descritos na atvi, a primeira atividade que deu origem a empresa de desenvolvimento de software. Busque os requisitos na documentação da atvi.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Lembre-se, agora a responsabilidade está com você. O futuro da empresa depende das tuas habilidades.
+</p>
