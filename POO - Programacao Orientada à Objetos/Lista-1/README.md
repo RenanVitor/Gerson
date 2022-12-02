@@ -17,14 +17,12 @@ clientes é uma tarefa que demanda muito tempo e não traz retorno, mas isso é 
 pequenas como cabeleireiros, academias e as demais modalidades do setor de serviços. Apesar de simples, um bom programa de cadastro de clientes traz informações que permitem ao microempresário um contato mais próximo com seus clientes. A partir do perfil de um cliente é possível saber sua preferência por certos produtos ou serviços. O fundamental para atrair cada cliente é conhecer o que realmente desperta sua atenção. Alguns pontos
 principais sobre o cadastro de clientes são:</p>
 
-<p align="justify">
 • Começar o cadastro pelos dados principais ou mais relevantes.
 • Usar o cadastro para manter os clientes contato constante e com isso informar seus clientes das
 novidades de serviços ou produtos.
 • Usar as informações do cadastro para ofertar produtos complementares a outros serviços e
 promoções.
 • Manter uma agenda para contatos futuros e base para análise estratégica de marketing.
-</p>
 
 # Atividade:
 <p align="justify">
