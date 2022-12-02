@@ -17,10 +17,10 @@ export default class MenuServico extends Listagem {
     menuCliente(empresa: Empresa) {
         let operacao: boolean = true;
 
-        console.log("Menu de Serviços");
+        console.log("\nMenu de Serviços");
 
         while (operacao) {
-            console.log("Opções para serviços:\n")
+            console.log("\nOpções para serviços:\n")
             console.log(`1 - Cadastrar um serviço`);
             if (empresa.getServicos.length) {
                 console.log(`2 - Atualizar um serviço`);
@@ -31,6 +31,14 @@ export default class MenuServico extends Listagem {
 
             let entrada = new Entrada()
             let opcao = entrada.receberNumero("Escolha uma opção: ");
+
+            if (empresa.getServicos.length == 0 && [2, 3, 4].includes(opcao)) {
+                return
+            }
+
+            if (opcao > 4) {
+                return
+            }
 
             switch (opcao) {
                 case 1:

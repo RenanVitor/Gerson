@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { componet } from "react"
 import BarraNavegacao from "./barraNavegacao";
 import FormularioCadastroCliente from "./formularioCadastroCliente";
 import ListaCliente from "./listaCliente";

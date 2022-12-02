@@ -18,7 +18,7 @@ import menuProduto from "./menuProduto";
 import MenuServico from "./menuServico";
 import MenuListagens from "./menuListagens";
 
-console.log(`Bem-vindo ao cadastro de clientes do Grupo World Beauty`)
+console.log(`\nBem-vindo ao sistema de clientes do Grupo World Beauty`)
 let empresa = new Empresa()
 let execucao = true
 
@@ -57,7 +57,7 @@ while (execucao) {
 
             break;
         case 5:
-            let propularBase = new PopularBaseClientes(empresa.getClientes)
+            let propularBase = new PopularBaseClientes(empresa.getClientes, empresa.getProdutos, empresa.getServicos)
             propularBase.popularBase()
 
             break;

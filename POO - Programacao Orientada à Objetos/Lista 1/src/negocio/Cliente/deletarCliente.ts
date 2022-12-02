@@ -36,8 +36,23 @@ export default class DeletarCliente extends Deletar {
         }
 
         if (cpfIndex != -1) {
-            this.clientes.splice(cpfIndex, 1);
-            console.log(`\nCliente excluído com sucesso! \n`);
+            let confirma = this.entrada.receberNumero(`Cliente encontrado, deseja realmente excluir o mesmo? 1-Sim / 2-Não: `);
+            if (confirma != 1 && confirma != 2) {
+                while (confirma != 1 && confirma != 2) {
+                    console.log(`\nOpção inválida! \n`);
+                    confirma = this.entrada.receberNumero(`Deseja realmente excluir o cliente? 1-Sim / 2-Não: `)
+                }
+            }
+
+            switch (confirma) {
+                case 1:
+                    this.clientes.splice(cpfIndex, 1)
+                    console.log(`\nCliente excluído com sucesso! \n`);
+                    break;
+                case 2:
+                    console.log(`\nProcesso Interrompido!\n`);
+                    break;
+            }
         }
     }
 }

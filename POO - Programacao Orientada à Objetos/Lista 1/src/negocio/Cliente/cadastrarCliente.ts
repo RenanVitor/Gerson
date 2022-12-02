@@ -18,10 +18,10 @@ export default class CadastroCliente extends Cadastro {
         console.log(`\nInício do cadastro do cliente`);
         let nome = this.entrada.receberTexto(`Por favor informe o nome do cliente: `);
         let nomeSocial = this.entrada.receberTexto(`Por favor informe o nome social do cliente: `);
-        let genero = this.entrada.receberNumero(`Por favor selecione um gênero: 1-Feminino / 2-Masculino`);
+        let genero = this.entrada.receberNumero(`Por favor selecione um gênero (1-Feminino / 2-Masculino): `);
         if (genero != 1 && genero != 2) {
             while (genero != 1 && genero != 2) {
-                genero = this.entrada.receberNumero(`Gênero inválido, por favor insira novamente o gênero do cliente: 1-Feminino / 2-Masculino`);
+                genero = this.entrada.receberNumero(`Gênero inválido, por favor insira novamente o gênero do cliente (1-Feminino / 2-Masculino): `);
             }
         }
         let valorCpf = this.entrada.receberTexto(`Por favor informe o número do CPF: `);

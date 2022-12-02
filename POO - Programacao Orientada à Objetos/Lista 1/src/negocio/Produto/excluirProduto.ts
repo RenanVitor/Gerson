@@ -48,7 +48,7 @@ export default class ExcluirProduto extends Deletar {
                     console.log(`\nProduto excluído com sucesso! \n`);
                     break;
                 case 2:
-                    console.log(`Processo Interrompido!`);
+                    console.log(`\nProcesso Interrompido!`);
                     break;
             }
         }

@@ -17,10 +17,10 @@ export default class MenuProduto extends Listagem {
     menuProduto(empresa: Empresa) {
         let operacao: boolean = true;
 
-        console.log("Menu do Produto");
+        console.log("\nMenu do Produto");
 
         while (operacao) {
-            console.log("Opções para produtos:\n")
+            console.log("\nOpções para produtos:\n")
             console.log(`1 - Cadastrar um produto`);
             if (empresa.getProdutos.length) {
                 console.log(`2 - Atualizar um produto`);
@@ -31,6 +31,14 @@ export default class MenuProduto extends Listagem {
 
             let entrada = new Entrada()
             let opcao = entrada.receberNumero("Escolha uma opção: ");
+
+            if (empresa.getProdutos.length == 0 && [2, 3, 4].includes(opcao)) {
+                return
+            }
+
+            if (opcao > 4) {
+                return
+            }
 
             switch (opcao) {
                 case 1:
