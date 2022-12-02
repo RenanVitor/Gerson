@@ -1,6 +1,7 @@
 import Entrada from "../io/entrada"
 import Empresa from "../modelo/empresa"
 import Listagem from "../negocio/Classes/listagem"
+import AdicionarVenda from "../negocio/Cliente/adicionarProdutoServico"
 import AtualizarCliente from "../negocio/Cliente/atualizarCliente"
 import CadastroCliente from "../negocio/Cliente/cadastrarCliente"
 import DeletarCliente from "../negocio/Cliente/deletarCliente"
@@ -27,6 +28,8 @@ export default class MenuCliente extends Listagem {
                 console.log(`2 - Atualizar um cliente`);
                 console.log(`3 - Excluir um cliente`);
                 console.log(`4 - Listar clientes cadastrados`);
+                console.log(`5 - Adicionar serviço ou venda para cliente`);
+
             }
 
             console.log(`0 - Voltar para o menu principal\n`);
@@ -34,11 +37,11 @@ export default class MenuCliente extends Listagem {
             let entrada = new Entrada()
             let opcao = entrada.receberNumero("Escolha uma opção: ");
 
-            if (empresa.getClientes.length == 0 && [2, 3, 4].includes(opcao)) {
+            if (empresa.getClientes.length == 0 && [2, 3, 4, 5].includes(opcao)) {
                 return
             }
 
-            if (opcao > 4) {
+            if (opcao > 5) {
                 return
             }
 
@@ -61,6 +64,10 @@ export default class MenuCliente extends Listagem {
                 case 4:
                     let listagem = new ListagemClientes(empresa.getClientes);
                     listagem.listar();
+                    break;
+                case 5:
+                    let venda = new AdicionarVenda(empresa.getClientes, empresa.getProdutos, empresa.getServicos);
+                    venda.listar();
                     break;
 
                 case 0:
