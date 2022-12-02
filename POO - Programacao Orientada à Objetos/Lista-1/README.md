@@ -3,19 +3,22 @@
 
 <p align="center">Atividade prática ATVI - Professor Dr. Eng. Gerson Penha.</p>
 
-<p align="center">
 # Softwares sugeridos:
 • VSCode.
 • TypeScript.
-</p>
 
 
 # Contextualização:
 
-<p align="justify">Muitos microempresários não possuem um programa de cadastro de clientes. Eles acreditam que cadastrar
-clientes é uma tarefa que demanda muito tempo e não traz retorno, mas isso é um erro. Sem ter uma base de dados dos clientes não é possível ter informações relevantes sobre seus consumidores. O cadastro de clientes é fundamental para melhorar as vendas de uma empresa, principalmente empresas
-pequenas como cabeleireiros, academias e as demais modalidades do setor de serviços. Apesar de simples, um bom programa de cadastro de clientes traz informações que permitem ao microempresário um contato mais próximo com seus clientes. A partir do perfil de um cliente é possível saber sua preferência por certos produtos ou serviços. O fundamental para atrair cada cliente é conhecer o que realmente desperta sua atenção. Alguns pontos
-principais sobre o cadastro de clientes são:</p>
+<p align="justify">
+Muitos microempresários não possuem um programa de cadastro de clientes. Eles acreditam que cadastrar clientes é uma tarefa que demanda muito tempo e não traz retorno, mas isso é um erro. Sem ter uma base de dados dos clientes não é possível ter informações relevantes sobre seus consumidores.
+  
+O cadastro de clientes é fundamental para melhorar as vendas de uma empresa, principalmente empresas pequenas como cabeleireiros, academias e as demais modalidades do setor de serviços.
+
+Apesar de simples, um bom programa de cadastro de clientes traz informações que permitem ao microempresário um contato mais próximo com seus clientes. A partir do perfil de um cliente é possível saber sua preferência por certos produtos ou serviços. O fundamental para atrair cada cliente é conhecer o que realmente desperta sua atenção.
+
+Alguns pontos principais sobre o cadastro de clientes são:
+</p>
 
 • Começar o cadastro pelos dados principais ou mais relevantes.
 
@@ -49,7 +52,9 @@ não serão compartilhados entre as unidades do grupo WB.
 A agenda deverá ter as seguintes funcionalidades de cadastro:
 
 • CRUD (Create, Read, Update e Delete) de clientes.
+  
 • CRUD de produtos ou serviços.
+  
 • Registro de consumo dos produtos ou serviços que cada cliente adquiriu.
 
 A equipe de TI, que trabalha no grupo WB, forneceu um diagrama de classes e um repositório para auxiliar o
