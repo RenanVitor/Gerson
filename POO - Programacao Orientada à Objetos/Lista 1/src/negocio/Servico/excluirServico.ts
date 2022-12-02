@@ -48,7 +48,7 @@ export default class ExcluirServico extends Deletar {
                     console.log(`\nServiço excluído com sucesso! \n`);
                     break;
                 case 2:
-                    console.log(`Processo Interrompido!`);
+                    console.log(`\nProcesso Interrompido!`);
                     break;
             }
         }

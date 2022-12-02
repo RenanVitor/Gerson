@@ -35,8 +35,7 @@ export default class ListarPorGeneroCliente extends Listagem {
         }
 
         if (genero == 1) {
-            console.log("Feminino:");
-            console.log("\n");
+            console.log("\nFeminino: \n");
             fem.forEach(c => {
                 console.log(`Nome: ` + c.nome);
                 console.log(`Nome social: ` + c.nomeSocial);
@@ -53,12 +52,12 @@ export default class ListarPorGeneroCliente extends Listagem {
 
                 console.log(`--------------------------------------`);
             });
+            console.log(`\n`);
 
         }
 
         if (genero == 2) {
-            console.log("Masculino:");
-            console.log("\n");
+            console.log("\nMasculino: \n");
             masc.forEach(c => {
                 console.log(`Nome: ` + c.nome);
                 console.log(`Nome social: ` + c.nomeSocial);
@@ -75,6 +74,7 @@ export default class ListarPorGeneroCliente extends Listagem {
 
                 console.log(`--------------------------------------`);
             });
+            console.log(`\n`);
 
         }
     }

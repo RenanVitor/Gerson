@@ -11,4 +11,9 @@ export default class Entrada {
         let texto = prompt(mensagem)
         return texto
     }
+    public receber(mensagem: any): any {
+        let prompt = promptSync();
+        let texto = prompt(mensagem)
+        return texto
+    }
 }

@@ -8,12 +8,13 @@ export default class ListagemServicos extends Listagem {
         this.servicos = servicos
     }
     public listar(): void {
-        console.log(`\nLista de todos os Serviços:`);
+        console.log(`\nLista de todos os Serviços: \n`);
         this.servicos.forEach(servico => {
-            console.log(`--------------------------------------`);
+
             console.log(`ID do Serviço: ` + servico.getId);
             console.log(`Nome do Serviço: ` + servico.nome);
             console.log(`Preço do Serviço: R$` + servico.getPreco.toFixed(2));
+            console.log(`--------------------------------------`);
         });
         console.log(`\n`);
     }

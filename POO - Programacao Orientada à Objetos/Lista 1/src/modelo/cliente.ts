@@ -28,8 +28,14 @@ export default class Cliente {
     public get getCpf(): CPF {
         return this.cpf
     }
+    public set setCpf(cpf: CPF) {
+        this.cpf = cpf
+    }
     public get getRg(): RG {
         return this.rg
+    }
+    public set setRg(rg: RG) {
+        this.rg = rg
     }
     public get getDataCadastro(): String {
         return this.dataCadastro
@@ -50,6 +56,9 @@ export default class Cliente {
 
     public addProduto(produto: Produto) {
         this.produtosConsumidos.push(produto)
+    }
+    public adicionarTelefone(telefone: Telefone) {
+        this.telefones.push(telefone);
     }
 
 }
