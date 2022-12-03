@@ -9,6 +9,7 @@ import rotasTelefone from "./routes/rotasTelefone.rout";
 import rotaClienteProdutos from "./routes/rotasClienteProdutos.rout";
 import rotasClienteTelefones from "./routes/rotasClienteTefones.rout";
 import rotasClienteServicos from "./routes/rotasClienteServicos.rout";
+import * as dotenv from 'dotenv'
 
 const app = express()
 app.use(cors());
@@ -28,4 +29,4 @@ app.use(rotasClienteTelefones);
 app.use(rotasClienteServicos);
 
 // const connection = require("./models/connect")
-app.listen(2001, ()=>{console.log("Inicializando na porta 2001!")})
+app.listen(process.env.PORT, ()=>{console.log(`Inicializando na porta ${process.env.PORT}!`)})
