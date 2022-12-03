@@ -10,14 +10,12 @@
 
 # Lista 1
 
-
 <p align="center">Atividade prática ATVI - Professor Dr. Eng. Gerson Penha.</p>
 
 # Softwares sugeridos:
 • VSCode.
 
 • TypeScript.
-
 
 # Contextualização:
 
